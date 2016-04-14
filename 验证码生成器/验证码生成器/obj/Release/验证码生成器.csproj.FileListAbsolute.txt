@@ -1,0 +1,12 @@
+H:\C#\C#PNGUtils\验证码生成器\验证码生成器\bin\Release\验证码生成器（圆仔仔典藏版）.exe.config
+H:\C#\C#PNGUtils\验证码生成器\验证码生成器\bin\Release\验证码生成器（圆仔仔典藏版）.exe.manifest
+H:\C#\C#PNGUtils\验证码生成器\验证码生成器\bin\Release\验证码生成器（圆仔仔典藏版）.application
+H:\C#\C#PNGUtils\验证码生成器\验证码生成器\bin\Release\验证码生成器（圆仔仔典藏版）.exe
+H:\C#\C#PNGUtils\验证码生成器\验证码生成器\bin\Release\验证码生成器（圆仔仔典藏版）.pdb
+H:\C#\C#PNGUtils\验证码生成器\验证码生成器\obj\Release\验证码生成器.Form1.resources
+H:\C#\C#PNGUtils\验证码生成器\验证码生成器\obj\Release\验证码生成器.Properties.Resources.resources
+H:\C#\C#PNGUtils\验证码生成器\验证码生成器\obj\Release\验证码生成器.csproj.GenerateResource.Cache
+H:\C#\C#PNGUtils\验证码生成器\验证码生成器\obj\Release\验证码生成器（圆仔仔典藏版）.exe.manifest
+H:\C#\C#PNGUtils\验证码生成器\验证码生成器\obj\Release\验证码生成器（圆仔仔典藏版）.application
+H:\C#\C#PNGUtils\验证码生成器\验证码生成器\obj\Release\验证码生成器（圆仔仔典藏版）.exe
+H:\C#\C#PNGUtils\验证码生成器\验证码生成器\obj\Release\验证码生成器（圆仔仔典藏版）.pdb

@@ -1,0 +1,99 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="批量修改图片.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SettingsOldFilePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SettingsNewFilePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SettingsOldColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">230, 28, 28</Value>
+    </Setting>
+    <Setting Name="SettingsNewColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">77, 216, 99</Value>
+    </Setting>
+    <Setting Name="SettingsSimilarity" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">0.2</Value>
+    </Setting>
+    <Setting Name="SettingIsSingleValue" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SettingIsFilterCheck" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SettingFilterListView" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SettingsOldColorCheckBox1" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SettingsOldColorCheckBox2" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SettingsOldColorCheckBox3" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SettingsOldColorCheckBox4" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SettingsOldColorCheckBox5" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SettingsOldColorShow1" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">230, 28, 28</Value>
+    </Setting>
+    <Setting Name="SettingsOldColorShow2" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">230, 28, 28</Value>
+    </Setting>
+    <Setting Name="SettingsOldColorShow3" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">230, 28, 28</Value>
+    </Setting>
+    <Setting Name="SettingsOldColorShow4" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">230, 28, 28</Value>
+    </Setting>
+    <Setting Name="SettingsOldColorShow5" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">230, 28, 28</Value>
+    </Setting>
+    <Setting Name="SettingsPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SettingsDeveloperModel" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="DevNewTestModel" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="DevOtherModel" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="DevOtherResizeList" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="DevOtherResizeRadioButton" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="DevOtherResizeCutRadioButton" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="DevOtherSavePicFormatCheckBox" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="DevOtherScaleAddListBox" Description="比例模式所以尺寸" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="DevOtherScaleWidthTextBox" Description="当前资源分辨率宽度" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1920</Value>
+    </Setting>
+    <Setting Name="DevOtherScaleHeightTextBox" Description="当前资源分辨率高度" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1080</Value>
+    </Setting>
+    <Setting Name="SettingsNewColorCheckBox1" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SettingsNewColorShow1" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Fuchsia</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

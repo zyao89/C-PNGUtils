@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="批量修改图片.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5" />
+    </startup>
+    <userSettings>
+        <批量修改图片.Properties.Settings>
+            <setting name="SettingsOldFilePath" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="SettingsNewFilePath" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="SettingsOldColor" serializeAs="String">
+                <value>230, 28, 28</value>
+            </setting>
+            <setting name="SettingsNewColor" serializeAs="String">
+                <value>77, 216, 99</value>
+            </setting>
+            <setting name="SettingsSimilarity" serializeAs="String">
+                <value>0.2</value>
+            </setting>
+            <setting name="SettingIsSingleValue" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="SettingIsFilterCheck" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="SettingsOldColorCheckBox1" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="SettingsOldColorCheckBox2" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="SettingsOldColorCheckBox3" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="SettingsOldColorCheckBox4" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="SettingsOldColorCheckBox5" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="SettingsOldColorShow1" serializeAs="String">
+                <value>230, 28, 28</value>
+            </setting>
+            <setting name="SettingsOldColorShow2" serializeAs="String">
+                <value>230, 28, 28</value>
+            </setting>
+            <setting name="SettingsOldColorShow3" serializeAs="String">
+                <value>230, 28, 28</value>
+            </setting>
+            <setting name="SettingsOldColorShow4" serializeAs="String">
+                <value>230, 28, 28</value>
+            </setting>
+            <setting name="SettingsOldColorShow5" serializeAs="String">
+                <value>230, 28, 28</value>
+            </setting>
+            <setting name="SettingsPassword" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="SettingsDeveloperModel" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="DevNewTestModel" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="DevOtherModel" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="DevOtherResizeRadioButton" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="DevOtherResizeCutRadioButton" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="DevOtherSavePicFormatCheckBox" serializeAs="String">
+                <value>False</value>
+            </setting>
+        </批量修改图片.Properties.Settings>
+    </userSettings>
+</configuration>
