@@ -143,7 +143,7 @@ namespace 批量修改图片
             ChangeImageUtils change = new ChangeImageUtils();
             if (this.dev_save_pic_format_checkBox.Checked)
             {
-                change.setImageFormat(this.dev_save_pic_format_comboBox.Text);
+                change.setImageFormat(this.dev_save_pic_format_comboBox.SelectedItem.ToString());
             }
             else
             {
@@ -272,7 +272,7 @@ namespace 批量修改图片
                 }
                 DateTime tempTime = DateTime.Now;
 
-                string outFullFileName = (outInfo + "\\" + finfo.Name).Replace(@"\\", @"/");
+                string outFullFileName = (outInfo + @"\" + finfo.Name);
                 if (outFullFileName.Length >= 260)
                 {
                     //Console.WriteLine(@"文件名称过长，程序被迫终止！");
@@ -333,7 +333,7 @@ namespace 批量修改图片
             {
                 try
                 {
-                    outInfo = new DirectoryInfo(outSubInfo.FullName.Replace(@"\\", @"/") + "/" + info.Name);
+                    outInfo = new DirectoryInfo(outSubInfo.FullName + @"\" + info.Name);
                     scanAllFile(info, outInfo, oldColorList, newColorList, change, filterList, similarity, isSingleValue, isDevNewTestModel);
                 }
                 catch (PathTooLongException)//文件名过长
@@ -481,7 +481,7 @@ namespace 批量修改图片
             string[] paths = (string[])e.Data.GetData(DataFormats.FileDrop, false);
             for (int i = 0; i < paths.Length; i++)
             {
-                string name = paths[i].Substring(paths[i].LastIndexOf("\\") + 1);  //文件名
+                string name = paths[i].Substring(paths[i].LastIndexOf(@"\") + 1);  //文件名
                 this.filter_listView.Items.Add(name);
             }
             this.out_path_textBox.Cursor = System.Windows.Forms.Cursors.IBeam; //还原鼠标形状  
@@ -892,7 +892,7 @@ namespace 批量修改图片
             {
                 try
                 {
-                    string sPath = this._mSelectFileDialog.SelectedPath + "\\";
+                    string sPath = this._mSelectFileDialog.SelectedPath + @"\";
                     Console.WriteLine(sPath);
 
                     Random rnd = new Random();

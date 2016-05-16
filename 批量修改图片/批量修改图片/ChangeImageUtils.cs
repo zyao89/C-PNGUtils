@@ -22,7 +22,7 @@ namespace 批量修改图片
         //图片保存格式
         private ImageFormat mSavePICFormat = null;
         //图片扩展名
-        private string mSavePICFormatString = "";
+        private string mSavePICFormatString = "png";
 
         /**
          * @function changeImageColor
@@ -163,7 +163,7 @@ namespace 批量修改图片
             }
             else
             {
-                resultFilePath = resultFilePath.Substring(0, resultFilePath.LastIndexOf(".") + 1) + this.mSavePICFormatString;
+                resultFilePath = resultFilePath.Substring(0, resultFilePath.LastIndexOf(@".") + 1) + this.mSavePICFormatString;
                 src.Save(resultFilePath, this.mSavePICFormat); // 输出到文件流
             }
             src.Dispose();
@@ -352,7 +352,7 @@ namespace 批量修改图片
                     break;
                 case "BMP":
                     this.mSavePICFormat = ImageFormat.Bmp;
-                    this.mSavePICFormatString = "png";
+                    this.mSavePICFormatString = "bmp";
                     break;
                 case "JPG":
                 case "JPEG":

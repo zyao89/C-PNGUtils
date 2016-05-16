@@ -17,6 +17,7 @@ namespace 批量修改图片
 
         private OnCallBack onCallBack;//回调
         private string resultPsw;
+        private byte[] output;
 
         public LoadingForm()
         {
@@ -25,7 +26,7 @@ namespace 批量修改图片
             string key = @"ILOVEXYY";
             byte[] result = Encoding.Default.GetBytes(DateTime.Now.ToLongDateString().ToString() + Environment.UserName);    //tbPass为输入密码的文本框
             MD5 md5 = new MD5CryptoServiceProvider();
-            byte[] output = md5.ComputeHash(result);
+            output = md5.ComputeHash(result);
             output = md5.ComputeHash(Encoding.Default.GetBytes(BitConverter.ToString(output) + key));//加密两次
             //this.password_textBox.Text = BitConverter.ToString(output).Replace("-", "");  //password_textBox为输出加密文本的文本框
             resultPsw = BitConverter.ToString(output).Replace("-", "") + key;
@@ -34,13 +35,15 @@ namespace 批量修改图片
 
         private void button1_Click(object sender, EventArgs e)
         {
+            string key = BitConverter.ToString(output).Replace("-", "") + this.password_textBox.Text;
+
             if (onCallBack != null)
             {
-                this.onCallBack(this.password_textBox.Text == resultPsw);
+                this.onCallBack(key == resultPsw);
                 this.Hide();
 
                 //存储设置信息
-                Properties.Settings.Default.SettingsPassword = this.password_textBox.Text.Trim();
+                Properties.Settings.Default.SettingsPassword = this.password_textBox.Text;
                 Properties.Settings.Default.Save();
             }
             else

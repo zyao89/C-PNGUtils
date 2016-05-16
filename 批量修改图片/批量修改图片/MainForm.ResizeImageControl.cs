@@ -68,16 +68,16 @@ namespace 批量修改图片
                         Console.WriteLine("尺寸解析有问题。。。");
                         return;
                     }
-                    string outFullFile = outInfo + "\\" + item.Replace(" * ", "_");//根据尺寸划分路径
+                    string outFullFile = outInfo + @"\" + item.Replace(" * ", "_");//根据尺寸划分路径
                     if (isResizeModel)
                     {
                         if (this.dev_other_resize_height_radioButton.Checked)
                         {
-                            outFullFile = outInfo + "\\R_H_" + item.Replace(" * ", "_");//锁定高度路径
+                            outFullFile = outInfo + @"\R_H_" + item.Replace(" * ", "_");//锁定高度路径
                         }
                         else if (this.dev_other_resize_width_radioButton.Checked)
                         {
-                            outFullFile = outInfo + "\\R_W_" + item.Replace(" * ", "_");//锁定宽度路径
+                            outFullFile = outInfo + @"\R_W_" + item.Replace(" * ", "_");//锁定宽度路径
                         }
                     }
                     DirectoryInfo outCurrInfo = new DirectoryInfo(outFullFile);
@@ -170,7 +170,7 @@ namespace 批量修改图片
                 }
                 DateTime tempTime = DateTime.Now;
 
-                string outFullFileName = (outInfo + "\\" + finfo.Name).Replace(@"\\", @"/");
+                string outFullFileName = (outInfo + @"\" + finfo.Name);
                 if (outFullFileName.Length >= 260)
                 {
                     //Console.WriteLine(@"文件名称过长，程序被迫终止！");
@@ -240,7 +240,7 @@ namespace 批量修改图片
             {
                 try
                 {
-                    outInfo = new DirectoryInfo(outSubInfo.FullName.Replace(@"\\", @"/") + "/" + info.Name);
+                    outInfo = new DirectoryInfo(outSubInfo.FullName + @"\" + info.Name);
                     otherScanAllFile(info, outInfo, newSize, change, filterList, isResizeModel, isCanCut);
                 }
                 catch (PathTooLongException)
